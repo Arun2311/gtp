@@ -26,29 +26,29 @@ export default function () {
             data-bs-ride="carousel"
           >
             <div class="carousel-inner">
-              <div class="carousel-item active" data-bs-interval="10000">
+              <div class="carousel-item active" data-bs-interval="3000">
                 <img src={one} class="d-inline w-100" alt="..." />
               </div>
-              <div class="carousel-item" data-bs-interval="10000">
+              <div class="carousel-item" data-bs-interval="3000">
                 <img src={two} class="d-inline w-100" alt="..." />
               </div>
-              <div class="carousel-item" data-bs-interval="10000">
+              <div class="carousel-item" data-bs-interval="3000">
                 <img src={three} class="d-inline w-100" alt="..." />
               </div>
-              <div class="carousel-item" data-bs-interval="10000">
+              <div class="carousel-item" data-bs-interval="3000">
                 <img src={four} class="d-inline w-100" alt="..." />
               </div>
-              <div class="carousel-item" data-bs-interval="10000">
+              <div class="carousel-item" data-bs-interval="3000">
                 <img src={five} class="d-inline w-100" alt="..." />
               </div>
-              <div class="carousel-item" data-bs-interval="10000">
+              <div class="carousel-item" data-bs-interval="3000">
                 <img src={six} class="dinlinek w-100" alt="..." />
               </div>
 
-              <div class="carousel-item" data-bs-interval="10000">
+              <div class="carousel-item" data-bs-interval="3000">
                 <img src={seven} class="d-inline w-100" alt="..." />
               </div>
-              <div class="carousel-item" data-bs-interval="10000">
+              <div class="carousel-item" data-bs-interval="3000">
                 <img src={eight} class="d-inline w-100" alt="..." />
               </div>
             </div>
