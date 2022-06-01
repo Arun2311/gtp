@@ -15,8 +15,8 @@ export default function Card() {
 
     <h3 className='rainbow-text'>Online & Offline from JUN 08 </h3>
     
-    <h4 className='rainbow-text'>Greens Technology</h4>
-    <h4 className='rainbow-text'>Location For Offline: Perumbakkam</h4>
+    <h5 className='rainbow-text'>Greens Technology</h5>
+    <h6 className='rainbow-text'>Location For Offline: Perumbakkam</h6>
             
     
     </div>
