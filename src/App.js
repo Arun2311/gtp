@@ -53,7 +53,8 @@ function App() {
 
     <>
 
-    <div className="bgg"><Card/>
+    <div className="bgg
+    "><Card/>
     <div >
   
 
