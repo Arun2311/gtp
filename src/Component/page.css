@@ -1,0 +1,168 @@
+.cen{
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* margin-left: 500px; */
+}
+
+.hi{
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    display: flex;
+    justify-content: center;
+    font-family: 'Hanalei Fill', cursive;
+    background-size: 100%;
+    background-repeat: repeat ;
+    background-color: red;
+    /* color: brown; */
+
+    background-image: linear-gradient(45deg,#f3ec78,#af4261); 
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+   
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', sans-serif; */
+}
+
+.bgg{
+    background-image: url("../Assets/bgg4.jpg");
+
+    background: radial-gradient(circle ,#d4d6d1 , skyblue);
+    
+    background-size: cover;
+    padding-left: 1rem;
+}
+
+/* .hi1{
+    display: flex;
+    justify-content: center;
+    font-family: 'Hanalei Fill', cursive;
+    color: skyblue;
+    background-size: 100%;
+    background-repeat: repeat ;
+    /* color: brown; */
+
+    /* background-image: linear-gradient(85deg,#4f9f6e,#6faabd); 
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent; */
+
+
+
+  h1 {
+    font-family: 'Hanalei Fill', cursive;
+    font-weight: 800;
+    font-size: 5em;
+    width: 5em;
+    line-height: 0.9em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5em;
+    margin-top: calc(50vh - 1em);
+  }
+  
+  h3 {
+    /* font-family: 'Hanalei Fill', cursive; */
+    font-weight: 400;
+    font-size: 5em;
+    width: 15em;
+    line-height: 0.9em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5em;
+    margin-top: calc(50vh - 1em);
+  }
+
+  h4 {
+    /* font-family: 'Hanalei Fill', cursive; */
+    font-weight: 300;
+    font-size: 5em;
+    width: 15em;
+    line-height: 0.9em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5em;
+    margin-top: calc(50vh - 1em);
+  }
+
+
+.rainbow-text {
+    /* Create a conic gradient. */
+    /* Double percentages to avoid blur (#000 10%, #fff 10%, #fff 20%, ...). */
+    background: #CA4246;
+    background-color: #CA4246;
+    background: conic-gradient(
+      #CA4246 16.666%, 
+      #E16541 16.666%, 
+      #E16541 33.333%, 
+      #F18F43 33.333%, 
+      #F18F43 50%, 
+      #8B9862 50%, 
+      #8B9862 66.666%, 
+      #476098 66.666%, 
+      #476098 83.333%, 
+      #A7489B 83.333%);
+    
+    /* Set thee background size and repeat properties. */
+    background-size: 57%;
+    background-repeat: repeat;
+    
+    /* Use the text as a mask for the background. */
+    /* This will show the gradient as a text color rather than element bg. */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    
+    /* Animate the text when loading the element. */
+    /* This animates it on page load and when hovering out. */
+    animation: rainbow-text-animation-rev 0.5s ease forwards;
+  
+    cursor: pointer;
+  }
+  
+  /* Add animation on hover. */
+  .rainbow-text:hover {
+    animation: rainbow-text-animation 0.5s ease forwards;
+  }
+  
+  /* Move the background and make it larger. */
+  /* Animation shown when hovering over the text. */
+  @keyframes rainbow-text-animation {
+    0% {
+      background-size: 57%;
+      background-position: 0 0;
+    }
+    20% {
+      background-size: 57%;
+      background-position: 0 1em;
+    }
+    100% {
+      background-size: 300%;
+      background-position: -9em 1em;
+    }
+  }
+  
+  /* Move the background and make it smaller. */
+  /* Animation shown when entering the page and after the hover animation. */
+  @keyframes rainbow-text-animation-rev {
+    0% {
+      background-size: 300%;
+      background-position: -9em 1em;
+    }
+    20% {
+      background-size: 57%;
+      background-position: 0 1em;
+    }
+    100% {
+      background-size: 57%;
+      background-position: 0 0;
+    }
+  }
+
+.fll{
+    display: flex;
+    justify-content: center;
+
+}
+
+

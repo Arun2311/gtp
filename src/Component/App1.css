@@ -1,0 +1,89 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  height: 50vh;
+  background: radial-gradient(circle ,#d4d6d1 , skyblue);
+    
+  background-size: cover;
+  padding-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.clock {
+  position: relative;
+  margin: a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(42deg, #051817, #cad8d8);
+  height: 180px;
+  width: 360px;
+  color: #06f1f6;
+  text-shadow: 1px 1px 7px;
+  border-radius: 15px;
+  border: 1px solid silver;
+  /* box-shadow: 0 0 5px 25px; */
+}
+
+.clock section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+}
+.clock section p {
+  font-size: 4rem;
+}
+.clock section small {
+  color: silver;
+  text-shadow: none;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  /* color: #61dafb; */
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+
+
