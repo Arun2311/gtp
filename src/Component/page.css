@@ -50,6 +50,31 @@
 
 
 
+  
+
+  h5 {
+    font-family: 'Hanalei Fill', cursive;
+    font-weight: 800;
+    font-size: 10em;
+    width: 45em;
+    line-height: 0.9em;
+    margin-left: 450px;
+    margin-right: auto;
+    margin-top: 1.5em;
+    margin-top: calc(50vh - 1em);
+  }
+  h6 {
+    font-family: 'Hanalei Fill', cursive;
+    font-weight: 800;
+    font-size: 10em;
+    width: 45em;
+    line-height: 0.9em;
+    margin-left: 400px;
+    margin-right: auto;
+    margin-top: 1.5em;
+    margin-top: calc(50vh - 1em);
+  }
+
   h1 {
     font-family: 'Hanalei Fill', cursive;
     font-weight: 800;
