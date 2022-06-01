@@ -28,7 +28,7 @@
     background-image: url("../Assets/bgg4.jpg");
 
     background: radial-gradient(circle ,#d4d6d1 , skyblue);
-    
+    padding-bottom:10px;
     background-size: cover;
     padding-left: 1rem;
 }

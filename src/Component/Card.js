@@ -13,7 +13,9 @@ export default function Card() {
         <h4 className='rainbow-text'>FullStack (Mern) or (Mean) </h4> 
     
 
-    <h3 className='rainbow-text'>Online & Offline from JUN 08 </h3>
+    <h3 className='rainbow-text'>Online & Offline from courses </h3>
+
+    <h1 className='rainbow-text'>June 08</h1>
     
     {/* <h5 className='rainbow-text'>Greens Technology</h5> */}
     {/* <h6 className='rainbow-text'>Location For Offline: Perumbakkam</h6> */}
